@@ -28,7 +28,7 @@ public class Hero implements Comparable <Hero> {
         this.age = age;
     }
 
-    //
+    // Methode comparator
     public int compareTo(Hero hero) {
         return this.getName().compareTo(hero.getName());
     }
